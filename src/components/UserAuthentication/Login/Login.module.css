@@ -1,0 +1,225 @@
+.container {
+    position: absolute;
+    width: 557px;
+    height: 614px;
+    left: 403px;
+    top: 135px;
+    background: var(--MainWhite);
+    border-radius: 10px;
+}
+
+.container__header {
+    position: relative;
+    width: 161px;
+    height: 35px;
+    left: 190px;
+    top: 45px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    background: var(--MainWhite);
+    color: var(--MainBlack);
+}
+
+.container__subheader {
+    position: absolute;
+    width: 389px;
+    height: 18px;
+    left: 90px;
+    top: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--TextColour);
+}
+
+.container__email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    font-family: 'Inter';
+    position: relative;
+    width: 464px;
+    height: 106px;
+    left: 45px;
+    top: 140px;
+}
+
+.container__email--label {
+    width: 300px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--LabelBlack);
+    margin-bottom: 15px;
+
+}
+
+.container__email--input {
+    width: 100%;
+    height: 41px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--TextColour);
+    border: 1px solid var(--BorderWhite);
+    border-radius: 2px;
+    padding: 12px;
+}
+
+.container__email--input:focus {
+    outline: 1.5px solid var(--BorderWhite);
+}
+
+.container__email--span {
+    color: var(--Blue);
+    width: 12px;
+
+}
+
+.container__password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    font-family: 'Inter';
+    position: relative;
+    width: 464px;
+    height: 106px;
+    left: 45px;
+    top: 140px;
+}
+
+.container__password--label {
+    width: 300px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    color: var(--LabelBlack);
+}
+
+.container__password--input {
+    width: 100%;
+    height: 41px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--TextColour);
+    border: 1px solid var(--BorderWhite);
+    border-radius: 2px;
+    padding: 12px;
+}
+
+.container__password--input:focus {
+    outline: 1.5px solid var(--BorderWhite);
+}
+
+.container__password--span {
+    color: var(--Blue);
+    width: 12px;
+
+}
+
+.container__checkbox {
+    position: absolute;
+    left: 7%;
+    /* right: 8.33%; */
+    top: 68%;
+    /* bottom: 1.33%; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--TextColour);
+}
+
+.container__checkbox--input {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid var(--CheckboxBlue);
+    margin-right: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.container__passwordCheck {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 386px;
+    top: 68%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--Blue);
+    cursor: pointer;
+}
+
+.container__passwordCheck:hover {
+    color: var(--HoverBlue);
+}
+
+.container__button {
+    position: absolute;
+    width: 380px;
+    height: 48px;
+    left: 85px;
+    top: 480px;
+    background: var(--Blue);
+    border-radius: 7.60107px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--MainWhite);
+}
+
+.container__button:hover,
+.container__button:active {
+    background: var(--HoverBlue);
+    border-color: var(--HoverBlue);
+}
+
+
+.container__button:focus {
+  outline: none;
+}
+
+.container__signup {
+    position: absolute;
+    width: 241px;
+    height: 22px;
+    left: 160px;
+    top: 520px;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: var(--Blue);
+}
+
+.container__signup--link {
+    color: var(--TextColour);
+    font-weight: 400;
+    cursor: pointer;
+}

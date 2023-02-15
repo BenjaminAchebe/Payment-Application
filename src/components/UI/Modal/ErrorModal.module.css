@@ -1,0 +1,58 @@
+.background {
+    position: absolute;
+    top: 0px;
+    width: 1366px;
+    height: 1261.78px;
+    background: rgba(26, 32, 44, 0.55);
+    backdrop-filter: blur(1.89451px);
+}
+
+.container {
+    position: absolute;
+    width: 551px;
+    height: 387px;
+    left: 350px;
+    top: 200px;
+    background: #FFFFFF;
+    border: 1px solid #EDF2F7;
+    border-radius: 8px;
+}
+
+.container__close {
+    position: absolute;
+    left: 90%;
+    /* right: 20%; */
+    top: 10%;
+    cursor: pointer;
+    /* bottom: 25%; */
+}
+
+.container__image {
+    position: absolute;
+    left: 40%;
+    top: 22%;
+}
+
+.container__header {
+    position: absolute;
+    width: 195px;
+    height: 29px;
+    top: 53%;
+    left: 35%;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E2C34;
+}
+
+.container__subheader {
+    position: absolute;
+    width: 337px;
+    height: 40px;
+    top: 70%;
+    left: 20%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #83879B;
+}
