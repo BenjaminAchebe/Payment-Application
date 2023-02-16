@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import SignUpQuote from "../../UI/AuthenticationQuote/SignUpQuote";
 import classes from "./SignUp.module.css";
-// import SignUpQuote from './components\UserAuthentication\SignUp\SignUp.js'
+
 
 const SignUp = () => {
     const [enteredBusinessName, setEnteredBusinessName] = useState("");

@@ -5,6 +5,7 @@ import SignUp from "./components/UserAuthentication/SignUp/SignUp";
 import { Link, Route, Switch } from 'react-router-dom';
 import ErrorModal from "./components/UI/Modal/ErrorModal";
 import Login from "./components/UserAuthentication/Login/Login";
+import SuccessModal from "./components/UI/Modal/SuccessModal";
 
 function App() {
   // const Dashboard = () => <h1>Dashboard</h1>;
@@ -28,9 +29,6 @@ function App() {
       </Switch> */}
 
       <SignUp/>
-      {/* <Login/> */}
-      {/* <Wallet/> */}
-      {/* <ErrorModal/> */}
     </div>
   );
 }

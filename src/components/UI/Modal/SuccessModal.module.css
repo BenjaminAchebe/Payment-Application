@@ -1,0 +1,167 @@
+
+.heading__message {
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 52%;
+    right: 34.63%;
+    top: 160px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.container__successs {
+    position: absolute;
+    width: 461px;
+    height: 341.3px;
+    left: 547px;
+    top: 280px;
+    background: #000000;
+    border-radius: 13.6795px;   
+}
+
+.container__successs--certificate {
+    position: absolute;
+    width: 58.82px;
+    height: 58.14px;
+    left: 45%;
+    top: 10%;
+}
+
+.container__successs--check {
+    position: absolute;
+    left: 49%;
+    right: 0%;
+    top: 15%;
+    color: #000000;
+}
+
+.container__messsage {
+    position: absolute;
+    width: 461px;
+    height: 23.26px;
+    left: 0%;
+    top: 30%;
+    font-weight: 400;
+    font-size: 17.7834px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container__summary {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 30%;
+    top: 36%;
+    font-weight: 500;
+    font-size: 12.3116px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.container__summary--outline {
+    position: absolute;
+    width: 340.38px;
+    height: 130.42px;
+    left: 13%;
+    top: 55%;
+    border: 0.683976px dashed #FFFFFF;
+    border-radius: 13.6795px;
+}
+
+.container__summary--label1 {
+    position: absolute;
+    width: 139.53px;
+    height: 15.73px;
+    left: 5%;
+    top: 12%;
+    font-weight: 700;
+    font-size: 10.9436px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.container__summary--label1>div {
+    font-weight: 400;
+}
+
+.container__summary--label3 {
+    position: absolute;
+    width: 140.22px;
+    height: 15.73px;
+    left: 70%;
+    top: 12%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9436px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.container__summary--label3>div {
+    font-weight: 400;
+}
+
+.container__summary--label2 {
+    position: absolute;
+    width: 150px;
+    height: 13px;
+    left: 5%;
+    top: 60%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9436px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.container__summary--label2>div {
+    font-weight: 400;
+}
+
+.container__summary--label4 {
+    position: absolute;
+    width: 140.22px;
+    height: 15.73px;
+    left: 70%;
+    top: 60%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9436px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.container__summary--label4>div {
+    font-weight: 400;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16.2056px 8.1028px;
+    gap: 12.96px;
+    position: absolute;
+    width: 151.56px;
+    height: 45.41px;
+    left: 703px;
+    top: 743px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1F28EB;
+    border-radius: 4.0514px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FCFCFD;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #1F28EB;
+}

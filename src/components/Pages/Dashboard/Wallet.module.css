@@ -98,3 +98,45 @@
     transform: rotate(-90deg);
 }
 
+.heading__message {
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 52%;
+    right: 34.63%;
+    top: 160px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.container__successs {
+    position: absolute;
+width: 461px;
+height: 341.3px;
+left: 547px;
+top: 280px;
+
+background: #000000;
+border-radius: 13.6795px;
+}
+
+.container__successs--certificate {
+    position: absolute;
+    width: 58.82px;
+    height: 58.14px;
+    left: 45%;
+    top: 10%;
+}
+
+.container__successs--check {
+    position: absolute;
+    left: 49%;
+    right: 0%;
+    top: 15%;
+    color: #000000;
+}
+

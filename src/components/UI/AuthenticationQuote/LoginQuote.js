@@ -1,8 +1,8 @@
 import React from "react";
 import classes from './LoginQuote.module.css';
 
-const Quote = () => {
+const LoginQuote = () => {
     return <div className={classes.container}></div>
 };
 
-export default Quote
+export default LoginQuote

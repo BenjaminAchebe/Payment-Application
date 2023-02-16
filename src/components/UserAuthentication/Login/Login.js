@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import LoginQuote from "../../UI/AuthenticationQuote/LoginQuote";
 import classes from "./Login.module.css";
 
 const Login = () => {
@@ -103,6 +104,7 @@ const Login = () => {
           </div>
         </form>
       </div>
+      <LoginQuote/>
     </>
   );
 };
