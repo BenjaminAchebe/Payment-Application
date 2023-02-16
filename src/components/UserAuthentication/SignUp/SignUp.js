@@ -28,7 +28,9 @@ const SignUp = () => {
           }),
         });
         const data = await response.json();
+        console.log(data);
       } catch (error) {
+        console.log(error);
         // console.error(error);
       }
     }
@@ -183,7 +185,7 @@ const SignUp = () => {
               />
               <span className={classes["container__checkbox--span"]}>
                 I consent to the collection and processing of my personal data
-                in line with the data regulations as described in Persent's{" "}
+                in line with the data regulations as described in Persent's
                 <a href="/" className={classes["container__label--link"]}>
                   Privacy Policy
                 </a>
