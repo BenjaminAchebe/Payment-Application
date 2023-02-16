@@ -29,10 +29,13 @@ const SignUp = () => {
         });
         const data = await response.json();
       } catch (error) {
-        console.error(error);
+        // console.error(error);
       }
     }
     
+    useEffect(() => {
+      signUpHandler();
+    });
     const BusinessNameHandler = (event) => {
       setEnteredBusinessName(event.target.value)
     };
@@ -181,7 +184,7 @@ const SignUp = () => {
               <span className={classes["container__checkbox--span"]}>
                 I consent to the collection and processing of my personal data
                 in line with the data regulations as described in Persent's{" "}
-                <a className={classes["container__label--link"]}>
+                <a href="/" className={classes["container__label--link"]}>
                   Privacy Policy
                 </a>
               </span>
@@ -193,13 +196,13 @@ const SignUp = () => {
           <div className={classes["container__terms"]}>
             <p>
               By clicking the “Sign up” button, you agree to Persent's{" "}
-              <a className={classes["container__terms--span"]}>Terms.</a>
+              <a href="/" className={classes["container__terms--span"]}>Terms.</a>
             </p>
           </div>
           <div>
             <p className={classes.container__signup}>
               Already a user?{" "}
-              <a className={classes["container__signup--link"]}>Login</a>
+              <a href='/'className={classes["container__signup--link"]}>Login</a>
             </p>
           </div>
         </form>
