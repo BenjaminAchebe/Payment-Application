@@ -8,7 +8,6 @@ import beneficiary from "../../Assets/Icons/beneficiary.svg";
 import transaction from "../../Assets/Icons/transaction.svg";
 import setting from "../../Assets/Icons/setting.svg";
 import help from "../../Assets/Icons/help.svg";
-import Transaction from "../Transaction/Transaction";
 
 const Wallet = () => {
   return (

@@ -33,10 +33,6 @@ const Login = () => {
   const setPasswordHandler = (event) => {
     setEnteredPassword(event.target.value)
   };
-
-  // useEffect(() => {
-  //   loginHandler();
-  // }, []);
   
 
   return (

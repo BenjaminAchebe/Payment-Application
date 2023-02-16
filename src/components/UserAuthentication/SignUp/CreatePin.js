@@ -2,11 +2,6 @@ import React, { useState, useEffect } from "react";
 import classes from "./CreatePin.module.css";
 
 const CreatePin = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [user, setUser] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState("");
 
   return (
     <>
