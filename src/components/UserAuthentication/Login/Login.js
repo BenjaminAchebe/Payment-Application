@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import LoginQuote from "../../UI/AuthenticationQuote/LoginQuote";
 import classes from "./Login.module.css";
 
@@ -21,6 +21,7 @@ const Login = () => {
         }),
       });
       const data = await response.json();
+      console.log(data);
     } catch (error) {
       console.error(error);
     }
@@ -87,7 +88,7 @@ const Login = () => {
               />
               Remember me
             </label>
-            <a className={classes.container__passwordCheck}>Forgot Password?</a>
+            <a href='/' className={classes.container__passwordCheck}>Forgot Password?</a>
           </div>
           <button className={classes.container__button} type="submit">
             Login
@@ -95,7 +96,7 @@ const Login = () => {
           <div>
             <p className={classes.container__signup}>
               Don't have an account?{" "}
-              <a className={classes["container__signup--link"]}>Sign Up</a>
+              <a href='/' className={classes["container__signup--link"]}>Sign Up</a>
             </p>
           </div>
         </form>
