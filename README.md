@@ -21,14 +21,14 @@ Contributions to the Test Payment Application are welcome and encouraged. If you
 
 ### Running Tests
 To run tests for the Payment Application, run the following command:
-```bash
+```diff
 npm test
 ```
 This will launch the test runner in interactive mode.
 
 ### Deployment
 To deploy the Payment Application to a live server, run the following command:
-```bash
+```diff
 npm run build
 ```
 This will create a production-ready `build` of the application in the build directory. You can then deploy the contents of this directory to your web server.
